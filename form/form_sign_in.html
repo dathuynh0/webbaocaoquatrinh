@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập</title>
+    <style>
+      * {
+        font-family: "Tahoma", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #form {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        background-color: aqua;
+      }
+
+      td {
+        padding: 10px;
+      }
+
+      input {
+        width: 200px;
+        height: 35px;
+      }
+
+      label {
+        font-size: 1.2rem;
+      }
+
+      .mkQuen {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+      }
+
+      .btn {
+        border-radius: 10px;
+        line-height: 30px;
+        font-weight: 400;
+        background: gray;
+      }
+
+      .btn:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/index.html" id="form">
+      <table>
+        <tr>
+          <td>
+            <label for="txtTenDangNhap">Tên đăng nhập:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name=""
+              id="txtTenDangNhap"
+              placeholder="Tên đăng nhập"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="passMatKhau">Mật khẩu:</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              name=""
+              id="passMatKhau"
+              placeholder="Mật khẩu"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p class="desc">
+              <a href="#" class="mkQuen">Bạn quên mật khẩu?</a>
+            </p>
+          </td>
+          <td>
+            <input type="submit" value="Đăng nhập" class="btn" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

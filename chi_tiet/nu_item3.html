@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style_item1_nam.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <details>
+      <summary>Chi tiết sản phẩm</summary>
+      <p>Làm từ da 100% an toàn với chân người sử dụng</p>
+    </details> -->
+    <header class="header sticky">
+      <div class="container">
+        <nav class="nav-bar">
+          <!-- main -->
+          <ul class="nav-list">
+            <li><a href="/index.html">Trang chủ</a></li>
+            <li>
+              <a href="#">Giày nam</a>
+              <ul>
+                <li><a href="#">Sandal</a></li>
+                <li><a href="#">Giày thể thao</a></li>
+                <li><a href="#">Giày đá banh</a></li>
+                <li><a href="#">Giày tây</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Giày nữ</a>
+              <ul>
+                <li><a href="#">Sandal</a></li>
+                <li><a href="#">Giày thể thao</a></li>
+                <li><a href="#">Giày cao gót</a></li>
+                <li><a href="#">Dép nữ</a></li>
+                <li><a href="#">Boot</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Balo - Túi</a></li>
+            <li><a href="#">Sale 50%</a></li>
+            <li><a href="#">Sản phẩm bán chạy</a></li>
+          </ul>
+
+          <!-- login -->
+          <div class="header-login">
+            <a href="./form/form_sign_in.html" class="btn">ĐĂNG NHẬP</a>
+            <a href="./form/form_sign_up.html" class="btn btn-sign-up"
+              >ĐĂNG KÝ</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- body -->
+    <main class="main">
+      <div class="container">
+        <div class="content">
+          <div class="img-content">
+            <img src="/img/giaynu3.webp" alt="" class="img_item" />
+          </div>
+
+          <!-- noi dung -->
+          <div class="document">
+            <h2 class="title_item">
+              Sandal Thời Trang Gosto Nữ Màu Bạc GFW020188BAC
+            </h2>
+            <span class="price">700.000đ</span>
+            <p class="color-item">Màu sắc: <strong>Nâu</strong></p>
+
+            <!-- btn -->
+            <div class="button">
+              <a href="#" class="btn btn-buy">Mua nhanh</a>
+              <a href="#" class="btn btn-giohang">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div>
+              <div class="item">
+                <p class="desc" onclick="show('item1')">Chi tiết Sản Phẩm</p>
+                <div class="list" id="item1">
+                  <p>Liên hệ:</p>
+                  <p>Facebook:</p>
+                  <p>Thăm ngàn</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <p class="desc" onclick="show('item2')">Bảo Hành & Đổi</p>
+                <div class="list" id="item2">
+                  <p>Liên hệ:</p>
+                  <p>Facebook:</p>
+                  <p>Thăm ngàn</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- js -->
+    <script src="main.js"></script>
+  </body>
+</html>

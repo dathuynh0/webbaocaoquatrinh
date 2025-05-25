@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Ký</title>
+
+    <style>
+      body {
+        font-family: "Tahoma", sans-serif;
+        background-color: aqua;
+      }
+
+      .title {
+        text-align: center;
+        padding-top: 10px;
+      }
+
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 550px;
+        background: rgb(222, 216, 216);
+      }
+
+      .register {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      input {
+        width: 30vw;
+        height: 30px;
+        margin: 10px;
+      }
+
+      .btn {
+        margin-top: 50px;
+        margin-left: 30%;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        /* line-height: 30px; */
+        color: grey;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">ĐĂNG KÝ TÀI KHOẢN</h2>
+    <div class="container">
+      <!-- <h2 class="title">ĐĂNG KÝ TÀI KHOẢN</h2> -->
+      <div class="register">
+        <form action="form_sign_in.html" id="form">
+          <label for="txtTenDangNhap">Tên đăng nhập:</label> <br />
+          <input
+            type="text"
+            name=""
+            id="txtTenDangNhap"
+            placeholder="Tên đăng nhập"
+          /><br />
+
+          <label for="emalEmail">Email:</label><br />
+          <input
+            type="email"
+            name=""
+            id="emalEmail"
+            placeholder="Nhập Email"
+          /><br />
+
+          <label for="passMatKhau">Mật khẩu:</label><br />
+          <input
+            type="password"
+            name=""
+            id="passMatKhau"
+            placeholder="Mật khẩu"
+          /><br />
+
+          <label for="passAgainMK">Nhập lại mật khẩu:</label> <br />
+          <input
+            type="password"
+            name=""
+            id="passAgainMK"
+            placeholder="Nhập lại mật khẩu"
+          />
+          <br />
+
+          <label for="telSoDienThoai">Số điện thoại:</label><br />
+          <input
+            type="tel"
+            name=""
+            id="telSoDienThoai"
+            placeholder="Nhập số điện thoại"
+          /><br />
+
+          <input type="submit" value="Tạo tài khoản" class="btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
